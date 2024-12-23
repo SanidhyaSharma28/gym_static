@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sani Fitness</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Mukta', sans-serif;
+            color: white;
+            padding: 0px;
+            margin: 0px;
+            background: url('images/training-828741_1920.jpg');
+        }
+
+        .left {
+            position: absolute;
+            /* border: 2px solid red; */
+            top: -27px;
+            left: -38px;
+            display: inline-block;
+        }
+
+        .mid {
+            width: 40%;
+            margin: 20px auto;
+            /* border: 2px solid turquoise; */
+        }
+
+        .right {
+            position: absolute;
+            top: 20px;
+            right: 34px;
+            display: inline-block;
+            /* border: 2px solid green; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 24px;
+        }
+
+        .navbar li a {
+            color: white;
+            padding: 34px 15px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            color: grey;
+            text-decoration: underline;
+        }
+
+        #icon {
+            height: 180px;
+            width: 240px;
+        }
+
+        #name {
+            text-align: center;
+            line-height: 25px;
+            margin-top: -40px;
+            font-size: 25px;
+        }
+
+        .btn {
+            font-family: 'Mukta', sans-serif;
+            margin: 0px 7px;
+            font-weight: bold;
+            color: white;
+            background-color: black;
+            padding: 5px 15px;
+            border: 2px solid blanchedalmond;
+            border-radius: 5px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            color: gold;
+            background-color: rgb(44, 43, 43);
+        }
+
+        .container {
+            border: 2px solid wheat;
+            text-align: center;
+            width: 40%;
+            background: url('images/christmas-3009949_1920.jpg');
+            margin: 90px 30px;
+            padding: 117px 75px;
+            border-radius: 5px;
+        }
+        .form-group input{
+            display: block;
+            text-align: left;
+            border-radius: 4px;
+            width: 400px;
+            border: 2px solide black;
+            font-style: italic;
+            margin: 8px auto;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+        .container button{
+            display: block;
+            margin: 4px auto;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images\gym-1048852_1280.png" alt="error" id="icon">
+            <div id="name">Sani Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN TILL 25th DEC AND GET 25% OFF</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>    
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your B.M.I.">
+            </div>
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
